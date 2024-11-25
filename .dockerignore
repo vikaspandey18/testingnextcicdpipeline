@@ -1,0 +1,24 @@
+# Ignore node_modules to avoid conflicts with Docker
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Ignore build files and directories created by the local environment
+.next
+out
+
+# Ignore editor and system files
+.DS_Store
+*.swp
+*.swo
+.idea
+.vscode
+
+# Ignore environment files (if not needed in Docker)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
